@@ -1,3 +1,4 @@
+package src.test.java;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
@@ -7,6 +8,8 @@ import java.util.List;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
+import NoteTakerApp;
 
 public class NoteTakerAppTest {
     private final InputStream systemIn = System.in;
