@@ -10,6 +10,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+
 public class NoteTakerAppTest {
     private final InputStream systemIn = System.in;
     private final PrintStream systemOut = System.out;
